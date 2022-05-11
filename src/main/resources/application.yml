@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          bnet:
+            clientId: 2d919defd72e4091bb95a6c4b1cd879e
+            clientSecret: FOjsIDzTLph5SThZzjrZOzD1m7cfGzr0
