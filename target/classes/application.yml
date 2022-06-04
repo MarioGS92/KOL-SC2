@@ -1,0 +1,5 @@
+kol:
+  oauth:
+    authUri: https://us.battle.net/oauth/authorize
+    tokenUri: https://us.battle.net/oauth/token
+    returnUrl: http://localhost:8080/api/auth/endpoint
