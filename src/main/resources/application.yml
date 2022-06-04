@@ -1,8 +1,5 @@
-spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          bnet:
-            clientId: 2d919defd72e4091bb95a6c4b1cd879e
-            clientSecret: FOjsIDzTLph5SThZzjrZOzD1m7cfGzr0
+kol:
+  oauth:
+    authUri: https://us.battle.net/oauth/authorize
+    tokenUri: https://us.battle.net/oauth/token
+    returnUrl: http://localhost:8080/api/auth/endpoint
